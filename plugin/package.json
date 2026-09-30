@@ -1,0 +1,10 @@
+{
+  "name": "domain-age-check-plugin",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "test": "node --test tests/worker.test.mjs",
+    "validate": "node scripts/validate-artifact.mjs"
+  }
+}
